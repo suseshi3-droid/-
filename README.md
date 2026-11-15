@@ -274,7 +274,7 @@ const FES = {
     {
       tab  : "高1",                      // タブに出る短い名前
       title: "高一企画",                  // 見出し
-      meta : ["9/20 (土) 11:00", "体育館ステージ"],   // 日時・場所（いらなければ [] に）
+      meta : ["9/20 (土) 11:00", "ステージ"],   // 日時・場所（いらなければ [] に）
       note : "",                          // 補足があれば書く（例：入替あり）
       songs: [
         { title:"ON", artist:"BTS" },
@@ -290,7 +290,7 @@ const FES = {
     {
       tab  : "高2",
       title: "高二企画",
-      meta : ["9/20 (土) 13:00", "体育館ステージ"],
+      meta : ["9/20 (土) 13:00", "ステージ"],
       note : "",
       songs: [
         { title:"ON", artist:"BTS" },
@@ -306,7 +306,7 @@ const FES = {
     {
       tab  : "早稲フェス 第一夜",
       title: "早稲フェス 第一夜",
-      meta : ["9/20 (土) 17:00", "中庭特設ステージ"],
+      meta : ["9/20 (土) 17:00", "ステージ"],
       note : "",
       songs: [
         // { title:"曲名", artist:"アーティスト名", by:"出演者・クラス名" },
@@ -322,7 +322,7 @@ const FES = {
     {
       tab  : "中学企画",
       title: "中学企画",
-      meta : ["9/21 (日) 10:30", "体育館ステージ"],
+      meta : ["9/21 (日) 10:30", "誠ホール"],
       note : "",
       /* ↓ 学年ごとに分けたいので songs ではなく sections を使っています */
       sections: [
@@ -356,7 +356,7 @@ const FES = {
     {
       tab  : "VS先生",
       title: "VS先生",
-      meta : ["9/21 (日) 13:30", "体育館ステージ"],
+      meta : ["9/21 (日) 13:30", "ステージ"],
       note : "",
       songs: [{ title:"腕相撲対決", artist:"" },
         // { title:"曲名", artist:"アーティスト名", by:"出演者・クラス名" },
@@ -366,7 +366,7 @@ const FES = {
     {
       tab  : "早稲フェス 第二夜",
       title: "早稲フェス 第二夜",
-      meta : ["9/21 (日) 17:00", "中庭特設ステージ"],
+      meta : ["9/21 (日) 17:00", "ステージ"],
       note : "",
       songs: [
           { title:"ON", artist:"BTS" },
@@ -375,6 +375,7 @@ const FES = {
         { title:"DOPE", artist:"BTS" },
         { title:"GOAT", artist:"MIYATI" },
         { title:"MAKOTO", artist:"YOKOTE" },
+         { title:"GENIUS", artist:"YAGIGOAT" },
         // { title:"曲名", artist:"アーティスト名", by:"出演者・クラス名" },
       ]
     }
